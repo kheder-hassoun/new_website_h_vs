@@ -180,7 +180,21 @@
       backDelay: 2000
     });
   }
-
+  /**
+   * nav type effect
+   */
+  const typed2 = select('.typed2')
+  if (typed) {
+    let typed_strings = typed2.getAttribute('data-typed-items')
+    typed_strings = typed_strings.split(',')
+    new Typed('.typed2', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 1000
+    });
+  }
   /**
    * Porfolio isotope and filter
    */
