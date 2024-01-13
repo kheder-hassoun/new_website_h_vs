@@ -1,14 +1,11 @@
-/**
-* Template Name: Imperial
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root{
+   --theme-color:rgb(216, 3, 170);
+   
+}
 body {
   background: #fff;
   color: #666666;
@@ -17,14 +14,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #03C4EB;
+  color:var(--theme-color);
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #03c5ec;
+  color:var(--theme-color);
   outline: none;
   text-decoration: none;
 }
@@ -68,7 +65,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #03C4EB;
+  background:var(--theme-color);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -82,7 +79,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #1bd6fc;
+  background:var(--theme-color);
   color: #fff;
 }
 
@@ -148,7 +145,7 @@ h6 {
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
-  border-bottom: 2px solid #03C4EB;
+  border-bottom: 2px solid var(--theme-color);
 }
 
 @media (max-width: 768px) {
@@ -175,14 +172,14 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 20px;
-  border-radius: 2px;
+  border-radius: 15px;
   transition: 0.5s;
   margin: 10px;
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: var(--theme-color);
+  border: 2px solid var(--theme-color);
   color: #fff;
 }
 
@@ -198,8 +195,8 @@ h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: var(--theme-color);
+  border: 2px solid var(--theme-color);
 }
 
 /*--------------------------------------------------------------
@@ -296,7 +293,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #03C4EB;
+  color:var(--theme-color);
 }
 
 .navbar .dropdown ul {
@@ -331,7 +328,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #03C4EB;
+  color:var(--theme-color);
 }
 
 .navbar .dropdown:hover>ul {
@@ -426,7 +423,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #03C4EB;
+  color:var(--theme-color);
 }
 
 .navbar-mobile .getstarted,
@@ -461,7 +458,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #03C4EB;
+  color: var(--theme-color);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -493,7 +490,7 @@ section {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: var(--theme-color);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -557,10 +554,10 @@ section {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: var(--theme-color);
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid var(--theme-color);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -579,7 +576,7 @@ section {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: var(--theme-color);
 }
 
 #services .service-title {
@@ -637,8 +634,8 @@ section {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: var(--theme-color);
+  border: 2px solid var(--theme-color);
 }
 
 /* Portfolio Section
@@ -669,7 +666,7 @@ section {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #03C4EB;
+  color: var(--theme-color);
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -717,7 +714,7 @@ section {
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
 #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #03C4EB;
+  color: var(--theme-color);
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
@@ -771,7 +768,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color:var(--theme-color);
 }
 
 #team .member .social i {
@@ -792,7 +789,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color:var(--theme-color);
   float: left;
   line-height: 0;
 }
@@ -851,11 +848,11 @@ section {
 
 #contact .php-email-form input::focus,
 #contact .php-email-form textarea::focus {
-  background-color: #03C4EB;
+  background-color: var(--theme-color);
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #03C4EB;
+  background: var(--theme-color);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -863,7 +860,7 @@ section {
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #25d8fc;
+  background:var(--theme-color);
 }
 
 @keyframes animate-loading {

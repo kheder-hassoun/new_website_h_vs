@@ -239,7 +239,7 @@
    */
   function aos_init() {
     AOS.init({
-      duration: 1500,//1000
+      duration: 2000,//1000
       easing: "ease-in-out",
       once: true,
       mirror: false
