@@ -604,7 +604,7 @@ section {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/luffy.gif) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -698,102 +698,6 @@ section {
   margin: 0 2px;
 }
 
-/* Contact Section
---------------------------------*/
-#contact {
-  background: #f7f7f7;
-  padding: 80px 0 120px 0;
-}
-
-#contact .info {
-  color: #333333;
-}
-
-#contact .info i {
-  font-size: 32px;
-  color:var(--theme-color);
-  float: left;
-  line-height: 0;
-}
-
-#contact .info p {
-  padding: 0 0 10px 50px;
-  line-height: 24px;
-}
-
-#contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-#contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-#contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-#contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-#contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-#contact .php-email-form input,
-#contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-}
-
-#contact .php-email-form input::focus,
-#contact .php-email-form textarea::focus {
-  background-color: var(--theme-color);
-}
-
-#contact .php-email-form button[type=submit] {
-  background: var(--theme-color);
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-#contact .php-email-form button[type=submit]:hover {
-  background:var(--theme-color);
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
