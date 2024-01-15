@@ -154,14 +154,14 @@
   });
 
   /**
-   * Preloader
+   * Preloader // دوائر اللودينغ
    */
   let preloader = select('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
       setTimeout(() => {
         preloader.remove()
-      }, 100);
+      }, 500);
     });
   }
 
@@ -203,10 +203,10 @@
    */
   function aos_init() {
     AOS.init({
-      duration: 2000,//1000
-      easing: "ease-in-out",
-      once: true,
-      mirror: false
+      duration: 2100,//1000
+      easing: "easeInOutQuad",
+      once: false,//true
+      mirror: true//animation in scroll to up 
     });
   }
   window.addEventListener('load', () => {
