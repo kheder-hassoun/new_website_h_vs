@@ -68,8 +68,8 @@ h6 {
   background:var(--theme-color);
   width: 40px;
   height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
+  border-radius: 14px;
+  transition: all 2s;
 }
 
 .back-to-top i {
@@ -697,6 +697,15 @@ section {
   font-size: 18px;
   margin: 0 2px;
 }
+/*   
+amazing section 
+
+*/
+.amazing-main-div{
+
+  background-color: #ffffff;
+}
+ 
 
 
 /*--------------------------------------------------------------
