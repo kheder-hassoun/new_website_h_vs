@@ -107,6 +107,7 @@ h6 {
 
 #hero .hero-logo {
   margin: 40px;
+  margin-top: 0px;
 }
 
 #hero .hero-logo img {
@@ -696,6 +697,7 @@ section {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+ 
 }
 /*   
 amazing section 
@@ -703,6 +705,7 @@ amazing section
 */
 .amazing-main-div{
 
+  
   background-color: #ffffff;
 }
  
